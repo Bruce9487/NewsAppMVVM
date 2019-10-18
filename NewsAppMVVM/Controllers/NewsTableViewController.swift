@@ -1,20 +1,19 @@
 //
-//  ViewController.swift
+//  NewsTableViewController.swift
 //  NewsAppMVVM
 //
 //  Created by APP技術部-陳冠志 on 2019/10/18.
 //  Copyright © 2019 Bruce Chen. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class NewsTableViewController: UITableViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
-
-
 }
-
